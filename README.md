@@ -18,7 +18,7 @@ pip3 install java java-1.8.0-openjdk-devel
 
 The official data and video links can be found in [link](https://github.com/m-bain/webvid).
 We have prepared the captions of this dataset and the corresponding data can be found in [link](https://github.com/m-bain/webvid).
-For the corresponding videos, you can download them via the script in [link](https://github.com/m-bain/webvid). After that, you need to uniformly extract 12 frames for each video clip. Finally, you need to run the script `python3 frozen_tfrecord.py` to process the extracted frames. It should be mention that the variables including "input_dir_path" and "output_dir" should be modified as needed.
+For the corresponding videos, you can download them via the script in [link](https://github.com/m-bain/webvid). After that, you need to uniformly extract 12 frames for each video clip. Finally, you need to run the script `python3 frozen_tfrecord.py` to process the extracted frames. It should be mentioned that the variables including "input_dir_path" and "output_dir" should be modified as needed.
 
 ## Pre-training based on WebVid-2.5M
 
