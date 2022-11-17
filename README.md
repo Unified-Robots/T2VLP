@@ -14,15 +14,22 @@ pip3 install tensorflow==2.4.0
 pip3 install java java-1.8.0-openjdk-devel
 ```
 
+## Trained Models
+
+|          Model name          |                             link                             |
+| :--------------------------: | :----------------------------------------------------------: |
+|   WebVid 2.5M Pre-training   |                       [Pre-training]()                       |
+| MSR-VTT Video-text Retrieval | [MSR-VTT retrieval](https://drive.google.com/file/d/1sfIDLUGHfGtMS5ttCFfo-ecE71hgHBm1/view?usp=sharing) |
+
 ## Data processing for WebVid-2.5M
 
-The official data and video links can be found in [link](https://github.com/m-bain/webvid).
-We have prepared the captions of this dataset and the corresponding data can be found in [link](https://github.com/m-bain/webvid).
-For the corresponding videos, you can download them via the script in [link](https://github.com/m-bain/webvid). After that, you need to uniformly extract 12 frames for each video clip. Finally, you need to run the script `python3 frozen_tfrecord.py` to process the extracted frames. It should be mentioned that the variables including "input_dir_path" and "output_dir" should be modified as needed.
+The official data and video links can be found [here](https://github.com/m-bain/webvid).
+We have prepared the captions of this dataset and the corresponding data can be found in [here](https://github.com/m-bain/webvid).
+For the corresponding videos, you can download them via the given [script](https://github.com/m-bain/webvid/blob/main/download.py). After that, you need to uniformly extract 12 frames for each video clip and run the script `python3 frozen_tfrecord.py` to process the extracted frames. It should be mentioned that the variables including "input_dir_path" and "output_dir" should be modified as needed.
 
 ## Pre-training based on WebVid-2.5M
 
-It should be noted that the communication between gpus depends on tencent platform. You need to modify the code contains "light" to achieve the communication between gpus as needed. To obtain the pre-trained model, you need to firstly run `sh start_clip.sh` to fine-tune the parameters of CLIP model. After that, run `sh start_fusion.sh` to train the cross-modality encoder. The pre-trained model can be found in [link](https://github.com/m-bain/webvid). To run the above scripts, you need to modify the path to the processed data. For convenience, you can put the processed videos in folder `WebVid_TFRecord`. The contents in `CLIP-modules` can be found in [link](https://github.com/m-bain/webvid).
+It should be noted that the communication between gpus depends on tencent platform. You need to modify the code contains "light" to achieve the communication between gpus as needed. To obtain the pre-trained model, you need to firstly run `sh start_clip.sh` to fine-tune the parameters of CLIP model. After that, run `sh start_fusion.sh` to train the cross-modality encoder. The pre-trained model can be found [here](https://github.com/m-bain/webvid). To run the above scripts, you need to modify the path to the processed data. For convenience, you can put the processed videos in folder `WebVid_TFRecord`. The contents in `CLIP-modules` can be found [here](https://github.com/m-bain/webvid).
 
 ```
 DATA_PATH=[Your path to json files and MSRVTT videos]
@@ -72,7 +79,7 @@ main_task_fusion.py --do_train --num_thread_reader=4 \
 
 ## Data Preparing for DOWNSTREAM TASKS
 
-For the following four data splits, the processed sentences and splits can be found in [link](http://ms-multimedia-challenge.com/2017/dataset). You need to download the raw videos following the instructions below:
+For the following four data splits, the processed sentences and splits can be found [here](http://ms-multimedia-challenge.com/2017/dataset). You need to download the raw videos following the instructions below:
 
 **For MSRVTT**
 
