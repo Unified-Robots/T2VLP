@@ -36,7 +36,7 @@ For the corresponding videos, you can download them via the given [script](https
 
 ## Pre-training based on WebVid-2.5M
 
-It should be noted that the communication between gpus depends on tencent platform. You need to modify the code contains "light" to achieve the communication between gpus as needed. To obtain the pre-trained model, you need to firstly run `sh start_clip.sh` to fine-tune the parameters of CLIP model. After that, run `sh start_fusion.sh` to train the cross-modality encoder. The pre-trained model can be found [here](https://github.com/m-bain/webvid). To run the above scripts, you need to modify the path to the processed data. For convenience, you can put the processed videos in folder `WebVid_TFRecord`. The contents in `CLIP-modules` can be found [here](https://github.com/m-bain/webvid).
+It should be noted that the communication between gpus depends on tencent platform. You need to modify the code contains "light" to achieve the communication between gpus as needed. To obtain the pre-trained model, you need to firstly run `sh start_clip.sh` to fine-tune the parameters of CLIP model. After that, run `sh start_fusion.sh` to train the cross-modality encoder. The pre-trained model can be found [here](https://pan.baidu.com/s/1jVjFI3aywDrKCJSEVx0n6Q?pwd=ei3r). To run the above scripts, you need to modify the path to the processed data. For convenience, you can put the processed videos in folder `WebVid_TFRecord`. The contents in `CLIP-modules` can be found [here](https://github.com/m-bain/webvid).
 
 ```
 DATA_PATH=[Your path to json files and MSRVTT videos]
