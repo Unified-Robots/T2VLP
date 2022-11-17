@@ -20,6 +20,12 @@ pip3 install java java-1.8.0-openjdk-devel
 | :--------------------------: | :----------------------------------------------------------: |
 |   WebVid 2.5M Pre-training   |                       [Pre-training]()                       |
 | MSR-VTT Video-text Retrieval | [MSR-VTT retrieval](https://drive.google.com/file/d/1sfIDLUGHfGtMS5ttCFfo-ecE71hgHBm1/view?usp=sharing) |
+|  LSMDC Video-text Retrieval  | [LSMDC_retrieval](https://drive.google.com/file/d/1PXV4I6nD0JBRmMSUHyH0_1sVRYy7wkO-/view?usp=sharing) |
+| DiDeMo Video-text Retrieval  | [DiDeMo retrieval](https://drive.google.com/file/d/16Ai3ksp5kLkcdwIjSNARMIB9qABZQEnQ/view?usp=sharing) |
+|      MSR-VTT Captioning      | [MSR-VTT caption](https://drive.google.com/file/d/10yMgLXgDvnit9un77Zkpv3jWoaKTRnD7/view?usp=sharing) |
+|       MSVD Captioning        | [MSVD caption](https://drive.google.com/file/d/1UZUoq5SVrsXid1X1PfHYFJZ-jFwSWlL9/view?usp=sharing) |
+|          MSR-VTT QA          | [MSR-VTT qa](https://drive.google.com/file/d/1GyFO0HYUm3GfwYpKdEyJVpBkdvKs7st9/view?usp=sharing) |
+|           MSVD QA            |                         [MSVD qa]()                          |
 
 ## Data processing for WebVid-2.5M
 
