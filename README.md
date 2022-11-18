@@ -90,28 +90,28 @@ For the following four data splits, the processed sentences and splits can be fo
 
 **For MSRVTT**
 
-The official data and video links can be found in [link](http://ms-multimedia-challenge.com/2017/dataset). 
+The official data and video links can be found [here](http://ms-multimedia-challenge.com/2017/dataset). 
 
 **For MSVD**
 
-Raw videos can be download from [link](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/). 
+Raw videos can be download from [here](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/). 
 
 The splits and `raw_captions` can be found in the wonderful job [collaborative-experts](https://github.com/albanie/collaborative-experts/blob/master/misc/datasets/msvd/README.md).
 
 **For LSMDC**
 
 You must obtain permission from MPII to download and use the data. The download link is [here](https://sites.google.com/site/describingmovies/download).
-The 1000 test clips data is [link](http://www.google.com/url?q=http%3A%2F%2Fdatasets.d2.mpi-inf.mpg.de%2FmovieDescription%2Fprotected%2Flsmdc2016%2FLSMDC16_challenge_1000_publictect.csv&sa=D&sntz=1&usg=AFQjCNGIaGVhCeb6zNfUs2UL1zNzoEtaSg). 
+The 1000 test clips data is [here](http://www.google.com/url?q=http%3A%2F%2Fdatasets.d2.mpi-inf.mpg.de%2FmovieDescription%2Fprotected%2Flsmdc2016%2FLSMDC16_challenge_1000_publictect.csv&sa=D&sntz=1&usg=AFQjCNGIaGVhCeb6zNfUs2UL1zNzoEtaSg). 
 
 **For DiDeMo**
 
-Raw videos can be download from [link](https://github.com/LisaAnne/LocalizingMoments).
+Raw videos can be download from [here](https://github.com/LisaAnne/LocalizingMoments).
 
 
 
 ## Adaption to DOWNSTREAM TASKS
 
-It should be noted that the code except the dataloader is the same for each downstream task. For each downstream task, please choose the corresponding dataloader for different datasets. The code for downstream tasks can be found in folders `video_text_retrieval`, `video_captioning` and `video_qa` respectively. The trained models for downstream tasks can be download from [link](https://github.com/LisaAnne/LocalizingMoments).
+It should be noted that the code except the dataloader is the same for each downstream task. For each downstream task, please choose the corresponding dataloader for different datasets. The code for downstream tasks can be found in folders `video_text_retrieval`, `video_captioning` and `video_qa` respectively. The trained models for downstream tasks can be download from [here](https://github.com/LisaAnne/LocalizingMoments).
 
 ### Video-text Retrieval (e.g. MSRVTT)
 
