@@ -86,7 +86,7 @@ main_task_fusion.py --do_train --num_thread_reader=4 \
 
 ## Data Preparing for DOWNSTREAM TASKS
 
-For the following four data splits, the processed sentences and splits can be found [here](http://ms-multimedia-challenge.com/2017/dataset). You need to download the raw videos following the instructions below:
+For the following four data splits, the processed sentences and splits can be found [here](https://pan.baidu.com/s/1wVlcXEkoDTHsv9txIC3lRg?pwd=mses). You need to download the raw videos following the instructions below:
 
 **For MSRVTT**
 
