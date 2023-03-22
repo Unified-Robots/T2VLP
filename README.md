@@ -1,6 +1,6 @@
 # Focus and Align: Learning Tube Tokens for Video-Language Pre-training
 
-The implementation of paper [**Focus and Align: Learning Tube Tokens for Video-Language Pre-training**].
+The implementation of paper [**Focus and Align: Learning Tube Tokens for Video-Language Pre-training**](https://ieeexplore.ieee.org/document/9996559/).
 
 Tube tokens are introduced to exploit the spatio-temporal information of frame patches for video-language pre-training. In order to leverage the complementary information within each frame, the learned semantic centers are utilized to integrate the patch representations within each frame. To enhance the alignments between videos and the paired descriptions, a local alignment mechanism is introduced.
 
@@ -186,7 +186,20 @@ main_task_qa_msrvtt.py --do_train --num_thread_reader=4 \
 --loose_type --linear_patch 2d --sim_header meanP \
 --init_model ${INIT_MODEL}
 ```
+# Citation
+If you find T2VLP useful in your work, you can cite the following paper:
+```bibtex
+@ARTICLE{t2vlp,
+  author={Zhu, Yongqing and Li, Xiangyang and Zheng, Mao and Yang, Jiahao and Wang, Zihan and Guo, Xiaoqian and Chai, Zifeng and Yuan, Yuchen and Jiang, Shuqiang},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Focus and Align: Learning Tube Tokens for Video-Language Pre-training}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TMM.2022.3231108}}
 
+```
 
 # Acknowledgments
 Our code is based on [CLIP4clip](https://github.com/ArrowLuo/CLIP4Clip), [CLIP (ViT-B/16)](https://github.com/openai/CLIP) and [UniVL](https://github.com/microsoft/UniVL).
